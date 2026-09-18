@@ -1,5 +1,25 @@
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  X-Frame-Options: SAMEORIGIN
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+/piotr-szefer/index.md
+  Content-Type: text/markdown; charset=utf-8
+  Link: <https://szefer.com/piotr-szefer/>; rel="canonical"
+/praktyka/index.md
+  Content-Type: text/markdown; charset=utf-8
+  Link: <https://szefer.com/praktyka/>; rel="canonical"
+/en/piotr-szefer/index.md
+  Content-Type: text/markdown; charset=utf-8
+  Link: <https://szefer.com/en/piotr-szefer/>; rel="canonical"
+/en/practice/index.md
+  Content-Type: text/markdown; charset=utf-8
+  Link: <https://szefer.com/en/practice/>; rel="canonical"
+/404.html
+  X-Robots-Tag: noindex
+/en/404.html
+  X-Robots-Tag: noindex

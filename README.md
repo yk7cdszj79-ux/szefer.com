@@ -1,27 +1,18 @@
-# Kancelaria Radcy Prawnego Piotr Szefer
+# Piotr Szefer — kancelaria
 
-Statyczna wizytówka przygotowana pod Cloudflare Pages.
+Strona w języku polskim i angielskim, publikowana przez istniejący projekt Cloudflare Pages `szefer-com` z gałęzi `main` repozytorium `yk7cdszj79-ux/szefer.com`.
 
-## Cloudflare Pages - Git integration
+Repozytorium zawiera gotowe pliki statyczne; `index.html` znajduje się w jego katalogu głównym. Publikacja nie wymaga Node.js ani instalowania zależności.
 
-- Framework preset: `None`
-- Root directory: `outputs/kancelaria-pages` jeśli repozytorium zawiera cały folder roboczy; puste, jeśli repozytorium zaczyna się bezpośrednio od tego katalogu
-- Build command: `exit 0`
-- Build output directory: `.`
-- Deploy command: zostaw puste
+## Istniejąca konfiguracja Cloudflare Pages
 
-Nie używaj `npx wrangler deploy` dla Pages. To jest komenda dla Workers i spowoduje błąd typu "Missing entry-point to Worker script or to assets directory".
+- Framework: None.
+- Build command: puste (równoważnie `exit 0`).
+- Build output: katalog główny repozytorium (`.` / puste w obecnym panelu).
+- Root directory: puste.
+- Production branch: `main`.
+- Domeny: `szefer.com`, `www.szefer.com`.
 
-## Direct Upload
+Zmiana na `main` uruchamia automatyczne wdrożenie. Aktualizacje przygotowuj w osobnej gałęzi i scalaj po odbiorze. Nie twórz nowego projektu ani nie zmieniaj DNS dla zwykłej aktualizacji plików.
 
-Wgraj cały folder `kancelaria-pages` albo plik ZIP przez panel Cloudflare Pages.
-
-## Wrangler CLI
-
-Jeśli wdrażasz przez Wrangler, użyj:
-
-```bash
-npx wrangler pages deploy .
-```
-
-Cloudflare Pages wymaga pliku `index.html` w katalogu głównym publikowanych plików; ten folder już go zawiera.
+Pliki `_headers` i `_redirects` są interpretowane przez Pages. Osobne strony 404 obsługują oba języki. Adresy techniczne `pages.dev` mają `noindex`; domena docelowa pozostaje indeksowalna.
