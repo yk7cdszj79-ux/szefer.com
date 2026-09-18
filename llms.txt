@@ -1,0 +1,24 @@
+# Piotr Szefer — radca prawny / Polish attorney-at-law
+
+> Radca prawny specjalizujący się w negocjowaniu i sporządzaniu umów gospodarczych, ze szczególnym uwzględnieniem własności intelektualnej i nowych technologii. Doświadczenie menedżerskie i biznesowe.
+
+## Główne źródła — polski
+
+- [Biografia](https://szefer.com/piotr-szefer/): Doświadczenie zawodowe, wykształcenie i kwalifikacje.
+- [Praktyka prawna](https://szefer.com/praktyka/): Zakres praktyki.
+- [Kontakt](https://szefer.com/kontakt/): Dane zawodowe i kontaktowe.
+
+## Primary sources — English
+
+Polish attorney-at-law specialising in negotiating and drafting commercial agreements, with a particular focus on intellectual property and new technologies. Management and business experience.
+
+- [Biography](https://szefer.com/en/piotr-szefer/): Professional experience, education and qualifications.
+- [Legal practice](https://szefer.com/en/practice/): Areas of practice.
+- [Contact](https://szefer.com/en/contact/): Professional and contact details.
+
+## Markdown
+
+- [Piotr Szefer — doświadczenie i droga zawodowa (pl)](https://szefer.com/piotr-szefer/index.md)
+- [Praktyka prawna (pl)](https://szefer.com/praktyka/index.md)
+- [Piotr Szefer — experience and professional background (en)](https://szefer.com/en/piotr-szefer/index.md)
+- [Legal practice (en)](https://szefer.com/en/practice/index.md)
